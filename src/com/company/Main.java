@@ -70,7 +70,7 @@ public class Main {
                                 throw new IllegalArgumentException("Usage: registration_numbers_for_cars_with_colour <color>");
                             }
                             controller.addCommand(commandName, new RegistrationNumbersForCarsWithColorCommand(parkingLot));
-                            break;
+                             break;
                         case "slot_number_for_registration_number":
                             if (commandArgs.length != 1) {
                                 throw new IllegalArgumentException("Usage: slot_number_for_registration_number <registrationNumber>");
